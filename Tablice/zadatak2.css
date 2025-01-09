@@ -1,0 +1,7 @@
+table,th,td{
+    border: 1px solid black;
+    height: 30px;
+    text-align: right;
+    vertical-align: bottom;
+    border-collapse: collapse;
+}
