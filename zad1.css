@@ -1,0 +1,16 @@
+div p:first-child{
+    background-color: red;
+    font-family: cursive;
+}
+div p:nth-child(2){
+    font-family: Tahoma;
+}
+div p:nth-child(3){
+    background-color: #CC0000;
+}
+div p:nth-child(4){
+    background-color: #00FF00;
+}
+div p:nth-child(5){
+    font-size: 22px;
+}
