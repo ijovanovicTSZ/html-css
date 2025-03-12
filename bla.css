@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.prvidiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    max-height: 700px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+
+header {
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.drugidiv {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+
+aside {
+    width: 20%;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+
+main {
+    width: 80%;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+
+footer {
+    height: 200px;
+    background-color: lightcoral;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
