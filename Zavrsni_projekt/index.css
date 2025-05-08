@@ -1,0 +1,78 @@
+/* Osnovne postavke */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2e3b4e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Osnovni stilovi za sekcije */
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Stilovi za slike u galeriji */
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Stilovi za video */
+video {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Stilovi za audio */
+audio {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
