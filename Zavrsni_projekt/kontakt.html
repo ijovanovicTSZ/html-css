@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moderni Tenkovi</title>
-    <!-- Povezivanje sa osnovnim CSS-om -->
+    <title>Kontakt</title>
     <link rel="stylesheet" href="main.css">
-    <!-- Povezivanje sa responsivnim CSS-om -->
     <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -24,16 +22,20 @@
 </header>
 
 <main>
-    <section class="hero">
-        <div class="overlay">
-            <h1>Najmoderniji Tenkovi</h1>
-            <p>Napredne borbene tehnologije u najnovijim tenkovima.</p>
-        </div>
-    </section>
+    <section class="contact-form">
+        <h1>Kontaktirajte nas</h1>
+        <form action="#" method="POST">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
 
-    <section class="content">
-        <h2>Ovi tenkovi postavljaju standarde u modernoj vojnoj tehnologiji</h2>
-        <p>Moderna vojna oprema, poput tenkova, koristi najnovije inovacije u području oklopne zaštite, elektronike, upravljanja vatrom i mobilnosti.</p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Pošaljite</button>
+        </form>
     </section>
 </main>
 
