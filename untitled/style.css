@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    color: white;
+}
+
+.logo span {
+    color: red;
+}
+
+nav a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #000, #200000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: red;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.gumb {
+    padding: 15px 30px;
+    background: red;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gumb:hover {
+    background: darkred;
+}
+
+/* SEKCIJE */
+.sekcija {
+    padding: 120px 80px;
+    margin-top: 100px;
+}
+
+.tamna {
+    background: #111;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* PROIZVODI */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.kartica {
+    background: #111;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.kartica:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px red;
+}
+
+.kartica img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.kartica h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.kartica p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.kartica button {
+    margin-top: auto;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kartica button:hover {
+    background: darkred;
+}
+
+.ukupno {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* KOŠARICA */
+#sadrzaj-kosarice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.kartica.kosarica {
+    width: 220px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.kartica.kosarica img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.kartica.kosarica button {
+    margin-top: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #000;
+    border: 1px solid red;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
